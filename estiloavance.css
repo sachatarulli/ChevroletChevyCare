@@ -1,0 +1,225 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen-principal {
+  width: 100%;
+  height: 320px;
+}
+
+.imagen-principal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background {
+  background-color: #E4DCD2;
+}
+/*NUEVO*/
+body {
+  font-family: 'Lora', serif;
+  background-color: #E4DCD2;
+  color: #7C3506;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.arbol
+{
+  border-radius: 0.5rem;
+  width: 60%;
+}
+.contenedor1 {
+  background-color: #E4DCD2;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
+  justify-content: center;
+  padding: 2rem;
+}
+.contenedor2 {
+  background-color: #E4DCD2;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+.textoinicial {
+  flex: 1;
+  padding: 1rem;
+  background-color: #FFFBF6;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.parrafo
+{
+  font-weight: bold;
+}
+
+/* Sección Identidad Visual */
+.contidvis, .prototipado {
+  padding: 1rem;
+  background-color: #FFFBF6;
+  border-radius: 0.5rem;
+  width: 40%;
+}
+
+.titmarron {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #7C3506;
+}
+
+.colores {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.circulo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-bottom: 0.5rem;
+}
+
+.blanco .circulo {
+  background-color: #FFFBF6;
+}
+
+.vison .circulo {
+  background-color: #E4DCD2;
+}
+
+.marron .circulo {
+  background-color: #7C3506;
+}
+
+.negro .circulo {
+  background-color: #000000;
+}
+
+.texto {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.lineaid {
+  border-bottom: 2px solid black;
+  margin: 1.5rem 0;
+}
+
+.textosfont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tipografia, .logo {
+  width: 45%;
+  text-align: center;
+
+}
+
+.loran {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.loram {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #7C3506;
+}
+
+.imglogo img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin-top: 1rem;
+  margin-top: -15px; 
+}
+
+/* Sección Prototipado */
+.prototipado {
+  text-align: center;
+}
+
+.miembros {
+  margin: 0.5rem 0;
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.linkfigma
+{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contenedor1{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .contenedor2
+  {
+    flex-direction: column;
+  }
+
+  .colores {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .color {
+      margin-bottom: 1rem;
+      width: auto;
+  }
+
+  .textosfont {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .tipografia, .logo {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1.5rem;
+  }
+  .contidvis, .prototipado {
+    width: 90%;
+  }
+  .arbol
+  {
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+  .imagen-principal {
+    width: 100%;
+    height: 320px;
+}
+}
