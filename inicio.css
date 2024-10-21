@@ -1,0 +1,18 @@
+.body {
+    display: flex;
+}
+
+.imagen-principal {
+    width: 100%;
+    height: 320px;
+}
+
+.imagen-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background {
+    background-color: #E4DCD2;
+}
