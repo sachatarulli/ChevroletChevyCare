@@ -1,0 +1,48 @@
+.datos-equipo {
+    background-color: #E4DCD2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.datos-equipo h2 {
+    display: flex;
+    justify-content: center;
+    color: #a75500;
+    font-size: 40px;
+    background: #FFFBF6;
+}
+
+.datos-equipo .info {
+    background-color: #FFFBF6;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+}
+
+.datos-equipo .info p {
+    margin: 10px 0;
+    background-color: #FFFBF6;
+    font-weight: 700;
+}
+@media all and (max-width: 650px) {
+	.datos-equipo{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.datos-equipo h2{
+		font-size: 30px;
+	}
+
+	.datos-equipo .info p{
+		font-size: 12px;
+	}
+
+
+}
