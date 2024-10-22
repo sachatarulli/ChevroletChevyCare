@@ -1,3 +1,6 @@
+body{
+   position:relative;
+}
 .datos-equipo {
     background-color: #E4DCD2;
     padding: 20px;
