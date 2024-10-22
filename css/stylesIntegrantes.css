@@ -1,5 +1,5 @@
 .integrantes-container {
-    background-color: #fff;
+    background-color: #FFFBF6;
     padding: 20px;
     border-radius: 10px;
     margin:20px auto;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    color: #FFFBF6;
+    color: #7C3506;
     margin-bottom: 30px;
 }
 
