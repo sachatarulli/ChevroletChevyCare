@@ -1,5 +1,5 @@
 body{
-   position:relative;
+   display:block;
 }
 .datos-equipo {
     background-color: #E4DCD2;
